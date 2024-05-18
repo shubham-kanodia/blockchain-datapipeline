@@ -1,0 +1,15 @@
+package basictransactionpackage;
+syntax = "proto3";
+
+message BasicTransactionBlock {
+     message BasicTransaction {
+        required uint64 transactionIndex = 1;
+        required string transactionHash = 2;
+        required string senderAddress = 3;
+        required string receiverAddress = 4;
+    }
+    
+    required uint64 blockNumber = 1;
+    required uint64 timestamp = 2;
+    repeated BasicTransaction data = 3;
+}
