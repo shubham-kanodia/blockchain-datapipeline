@@ -11,7 +11,7 @@ const producer = new BlockPollerProducer({
     maxReOrgDepth: 96,
     maxRetries: 5,
     mongoUrl: process.env.MONGO_URL as string,
-    "bootstrap.servers": process.env.KAFKA_URL as string,
+    "bootstrap.servers": process.env.KAFKA_SERVER as string,
     "security.protocol": "plaintext"
 })
 
