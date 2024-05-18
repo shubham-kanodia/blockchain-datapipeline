@@ -56,3 +56,23 @@ npm i
 ```
 
 Note: Make sure you have distutils installed using this command `pip3 install --upgrade setuptools`
+
+## Running the indexer
+
+* Run the producer
+
+```sh
+npm run producer
+```
+
+* Run the transformer
+
+```sh
+npm run transformer
+```
+
+* Run the consumer
+
+```sh
+npm run consumer
+```
