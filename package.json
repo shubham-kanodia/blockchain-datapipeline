@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
     "producer": "node dist/producer.js",
-    "transformer": "node dist/transformer/index.js"
+    "transformer": "node dist/transformer/index.js",
+    "consumer": "node dist/consumer.js"
   },
   "keywords": [],
   "author": "",
